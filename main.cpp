@@ -84,5 +84,10 @@ int main()
         g = 24.8;
       }
     }
+    else if(planet[i] == 'N' && planet[i + 1] == 'e' && planet[i + 2] == 'p' && planet[i  + 3] == 't' && planet[i  + 4] == 'u' && planet[i  + 5] == 'n'
+    && planet[i  + 6] == 'e')
+    {
+      g = 11;
+    }
   }
-} 
+}
