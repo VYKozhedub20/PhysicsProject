@@ -67,9 +67,13 @@ int main()
     }
     if(PlanetLenght == 6)
     {
-      if(planet[i] == 'S' && planet[i + 1] == 'a' && planet[i + 2] == 't' && planet[i  + 3] == 'u' && planet[i  + 4] == 'r' && planet[i  + 4] == 'r' && planet[i  + 4] == 'n')
+      if(planet[i] == 'S' && planet[i + 1] == 'a' && planet[i + 2] == 't' && planet[i  + 3] == 'u' && planet[i  + 4] == 'r' && planet[i  + 4] == 'n')
       {
         g = 10.4;
+      }
+      if(planet[i] == 'U' && planet[i + 1] == 'r' && planet[i + 2] == 'a' && planet[i  + 3] == 'n' && planet[i  + 4] == 'u' && planet[i  + 4] == 's')
+      {
+        g = 8.9;
       }
     }
   }
