@@ -60,6 +60,10 @@ int main()
       {
         g = 8.9;
       }
+      else if(planet[i] == 'E' && planet[i + 1] == 'a' && planet[i + 2] == 'r' && planet[i  + 3] == 't' && planet[i  + 4] == 'h')
+      {
+        g = 9.8;
+      }
     }
   }
 } 
