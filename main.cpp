@@ -25,6 +25,10 @@ int main()
       {
         rho = 1;
       }
+      else if(liquid[i] == 'w' && liquid[i + 1] == 'a' && liquid[i + 2] == 't' && liquid[i + 3] == 'e' &&liquid[i + 4] == 'r')
+      {
+        
+      }
     }
   }
 } 
