@@ -54,5 +54,12 @@ int main()
         g = 3.7;
       }
     }
+    if(PlanetLenght == 5)
+    {
+      if(planet[i] == 'V' && planet[i + 1] == 'e' && planet[i + 2] == 'n' && planet[i  + 3] == 'u' && planet[i  + 4] == 's')
+      {
+        g = 8.9;
+      }
+    }
   }
 } 
