@@ -9,7 +9,7 @@ int main()
   char planet[100];
   int LiquidLenght;
   int PlanetLenght;
-  double g, rho;
+  double g, rho, Height;
 
   cout << "Liquid: ";
 
@@ -67,13 +67,21 @@ int main()
     }
     if(PlanetLenght == 6)
     {
-      if(planet[i] == 'S' && planet[i + 1] == 'a' && planet[i + 2] == 't' && planet[i  + 3] == 'u' && planet[i  + 4] == 'r' && planet[i  + 4] == 'n')
+      if(planet[i] == 'S' && planet[i + 1] == 'a' && planet[i + 2] == 't' && planet[i  + 3] == 'u' && planet[i  + 4] == 'r' && planet[i  + 5] == 'n')
       {
         g = 10.4;
       }
-      if(planet[i] == 'U' && planet[i + 1] == 'r' && planet[i + 2] == 'a' && planet[i  + 3] == 'n' && planet[i  + 4] == 'u' && planet[i  + 4] == 's')
+      else if(planet[i] == 'U' && planet[i + 1] == 'r' && planet[i + 2] == 'a' && planet[i  + 3] == 'n' && planet[i  + 4] == 'u' && planet[i  + 5] == 's')
       {
         g = 8.9;
+      }
+    }
+    if(PlanetLenght == 7)
+    {
+      if(planet[i] == 'J' && planet[i + 1] == 'u' && planet[i + 2] == 'p' && planet[i  + 3] == 'i' && planet[i  + 4] == 't' && planet[i  + 5] == 'e'
+      && planet[i  + 6] == 'r')
+      {
+        g = 24.8;
       }
     }
   }
