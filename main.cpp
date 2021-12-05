@@ -9,7 +9,7 @@ int main()
   char planet[100];
   int LiquidLenght;
   int PlanetLenght;
-  double g, rho, Height;
+  double g, rho, Depth;
 
   cout << "Liquid: ";
 
@@ -34,7 +34,7 @@ int main()
     {
       if(liquid[i] == 'a' && liquid[i + 1] == 'l' && liquid[i + 2] == 'c' && liquid[i + 3] == 'o' &&liquid[i + 4] == 'h' && liquid[i + 5] == 'o' && liquid[i + 6] == 'l')
       {
-        rho = 1.42;
+        rho = 0.8;
       }
     }
   }
@@ -90,4 +90,7 @@ int main()
       g = 11;
     }
   }
+  cout << "Depth(in meters): ";
+  cin >> Depth;
+  cout << "Hydrostatic pressure(p) = " << rho * g * Depth << "Pa";  
 }
